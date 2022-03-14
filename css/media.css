@@ -1,0 +1,482 @@
+/* =================
+extra small device 
+====================*/
+@media (max-width: 575px){
+
+    /* navbar start*/
+.navbar{
+        background: rgba(226, 62, 56, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+
+    }
+
+    .navbar .navbar-brand{
+        position: static;
+        transform: skew(0);
+        -webkit-transform: skew(0);
+        -moz-transform: skew(0);
+        -ms-transform: skew(0);
+        -o-transform: skew(0);
+        padding: 0px !important;
+}
+.navbar .navbar-brand img{
+    transform: skew(0);
+    -webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -ms-transform: skew(0);
+    -o-transform: skew(0);
+}
+.navbar-light .navbar-toggler{
+    border-color: #ffffff !important;
+}
+
+.navbar-light .navbar-toggler span{
+    color: #ffffff;
+}
+.navbar-nav{
+    background: rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #353535 !important;
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::before{
+    width: 0%;
+    height: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after{
+    width: 100%;
+}
+
+    /* navbar end*/
+
+
+#banner .bg-1 h3::before,
+#banner .bg-1 h3::after,
+#banner .bg-1 h2::before,
+#banner .bg-1 h2::after,
+#banner .bg-1 p::before,
+#banner .bg-1 p::after
+{
+    display: none;
+}
+
+#banner .banner-item {
+	padding-top: 113px;
+	padding-bottom: 110px;
+}
+#banner .banner-item h3{
+    font-size: 24px;
+}
+
+#banner .banner-item h2{
+    font-size: 50px;
+}
+
+#banner .banner-item p{
+    padding: 0 6px;
+}
+    /* banner end*/
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .about-text p {
+        padding: 0 0px;
+    }
+
+    #about .about-video{
+        margin-top: 10px;
+    }
+    /* about end*/
+
+    #team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    /* team end*/
+
+    #testimonial {
+        padding-bottom: 60px;
+    }
+    /* test end*/
+
+
+#membership .section-head {
+    margin-bottom: 20px;
+}  
+#membership .membership-item h3 {
+    line-height: 80px;
+}
+
+#membership .membership-item ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#membership .membership-item ul li{
+    margin-bottom: 10px;
+}
+    /* membership end*/
+
+
+#rutine .nav-tabs {
+    flex-direction: column;
+}
+#rutine .rutine-item ul li {	
+	width: 50%;
+}
+#rutine .rutine-item ul li p{
+    font-size: 12px;
+}
+
+    /* rutine end*/
+
+
+    footer .footer-main {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }    
+footer .footer-item{
+    margin-bottom: 20px;
+}
+
+footer .footer-main .footer-item3 .footer-social-icon {
+	margin-top: 20px !important;
+}
+
+/* footer end*/
+
+#contact-page .contact-brd{
+border: none;
+}
+
+}
+
+/* =====================
+extra small device  end
+=======================*/
+
+
+/* =================
+small device 
+====================*/
+@media(min-width:576px) and (max-width:767px){
+    
+    /* navbar start*/
+.navbar{
+    background: rgba(226, 62, 56, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+
+}
+
+.navbar .navbar-brand{
+    position: static;
+    transform: skew(0);
+    -webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -ms-transform: skew(0);
+    -o-transform: skew(0);
+    padding: 0px !important;
+}
+.navbar .navbar-brand img{
+transform: skew(0);
+-webkit-transform: skew(0);
+-moz-transform: skew(0);
+-ms-transform: skew(0);
+-o-transform: skew(0);
+}
+.navbar-light .navbar-toggler{
+border-color: #ffffff !important;
+}
+
+.navbar-light .navbar-toggler span{
+color: #ffffff;
+}
+.navbar-nav{
+background: rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+color: #353535 !important;
+text-align: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::before{
+width: 0%;
+height: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after{
+width: 100%;
+}
+
+/* navbar end*/
+
+
+#banner .bg-1 h3::before,
+#banner .bg-1 h3::after,
+#banner .bg-1 h2::before,
+#banner .bg-1 h2::after,
+#banner .bg-1 p::before,
+#banner .bg-1 p::after
+{
+    display: none;
+}
+
+#banner .banner-item {
+	padding-top: 113px;
+	padding-bottom: 110px;
+}
+#banner .banner-item h3{
+    font-size: 29px;
+}
+
+#banner .banner-item h2{
+    font-size: 60px;
+}
+
+#banner .banner-item p{
+    padding: 0 48px;
+}
+    /* banner end*/
+
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .about-text p {
+        padding: 0 0px;
+    }
+
+    #about .about-video{
+        margin-top: 10px;
+    }
+    /* about end*/
+    .row > * {
+        margin-top: 10px;
+    }
+
+    #membership .membership-item ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #membership .membership-item ul li{
+        margin-bottom: 10px;
+    }
+        /* membership end*/
+
+    #rutine .nav-tabs {
+        flex-direction: column;
+    }
+    #rutine .rutine-item ul li {	
+           width: 50%;
+    }
+    #rutine .rutine-item ul li p{
+        font-size: 12px;
+    }
+
+/* rutine end*/
+
+#brand .left-arrow {
+	left: -17px;
+}
+
+#brand .right-arrow {
+	right: -17px;
+}
+/* brand end*/
+
+
+
+    footer .footer-main {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }    
+footer .footer-item{
+    margin-bottom: 20px;
+}
+
+footer .footer-main .footer-item3 .footer-social-icon {
+	margin-top: 10px !important;
+}
+
+#contact-page .contact-brd{
+    border: none;
+    }
+/* footer end*/
+        /* footer end*/
+}
+
+
+/* =================
+small device 
+====================*/
+
+
+
+/* =================
+medium device 
+====================*/
+@media(min-width:768px) and (max-width:991px){
+       /* navbar start*/
+.navbar{
+    background: rgba(226, 62, 56, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+
+}
+
+.navbar .navbar-brand{
+    position: static;
+    transform: skew(0);
+    -webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -ms-transform: skew(0);
+    -o-transform: skew(0);
+    padding: 0px !important;
+}
+.navbar .navbar-brand img{
+transform: skew(0);
+-webkit-transform: skew(0);
+-moz-transform: skew(0);
+-ms-transform: skew(0);
+-o-transform: skew(0);
+}
+.navbar-light .navbar-toggler{
+border-color: #ffffff !important;
+}
+
+.navbar-light .navbar-toggler span{
+color: #ffffff;
+}
+.navbar-nav{
+background: rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+color: #353535 !important;
+text-align: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::before{
+width: 0%;
+height: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+width: 100%;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after{
+width: 100%;
+}
+
+/* navbar end*/
+#banner .bg-1 h3::before {
+	content: "";
+	width: 187px;
+	height: 3px;
+	background: var(--brand);
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#banner .bg-1 h3::after {
+	content: "";
+	width: 143px;
+	height: 3px;
+	background: var(--brand);
+	position: absolute;
+	top: 20px;
+	right: 22px;
+}
+
+#banner .bg-1 p::before {
+	content: "";
+	width: 119px;
+	height: 3px;
+	background: var(--brand);
+	position: absolute;
+	bottom: -49px;
+	left: 20px;
+}
+
+#banner .bg-1 p::after {
+	content: "";
+	width: 92px;
+	height: 3px;
+	background: var(--brand);
+	position: absolute;
+	bottom: -49px;
+	right: 23px;
+}
+/* banner end*/
+
+#about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#about .about-text p {
+    padding: 0 0px;
+}
+
+#about .about-video{
+    margin-top: 10px;
+}
+/* about end*/
+
+#team {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+/* team end*/
+
+#membership .membership-item h3 {
+    line-height: 80px;
+}
+
+#membership .membership-item ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#membership .membership-item ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#membership .membership-item ul li{
+    margin-bottom: 10px;
+}
+/* membership end*/
+
+
+}
+
+/* =================
+medium device 
+====================*/

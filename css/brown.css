@@ -1,0 +1,37 @@
+#about,#gallery,#team,#membership,#testimonial,#rutine,#brand{
+    background-color: brown;
+}
+.section-head{
+    color: #ffff;
+}
+#about .about-text p{
+    color: #ffff;
+}
+
+#contact-page #contact-us{
+    background-color: brown;
+}
+
+#contact-page #contact-us .box{
+    background: orange;
+}
+#contact-page #contact-us .box p{
+    color: brown;
+}
+
+#contact-page #contact-us .about-head h3{
+    color: #ffff;
+}
+
+#contact-page .contact-brd{
+    border-bottom: 3px solid orange;
+}
+
+#contact-page .form-btn button{
+    background: rgb(206, 40, 40);
+    background: orange;
+}
+
+#back-to-top{
+    background-color: rgb(96, 146, 211);
+}
